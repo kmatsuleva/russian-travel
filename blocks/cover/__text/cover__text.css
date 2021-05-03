@@ -16,7 +16,7 @@
 
 @media screen and (min-width: 425px) {
   .cover__text {
-    min-height: 280px;
+    max-height: 280px;
   }
 }
 
@@ -28,12 +28,14 @@
 
 @media screen and (min-width: 1024px) {
   .cover__text {
+    max-height: 640px;
     padding: 195px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__text {
+    max-height: 740px;
     padding: 245px 0;
   }
 }

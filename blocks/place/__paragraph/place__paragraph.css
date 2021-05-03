@@ -2,9 +2,25 @@
   color: #fff;
   font-size: 16px;
   line-height: 1.62;
-  margin: 0 0 26px;
+  margin: 0 0 23px;
+  padding: 0 16px;
 }
 
 .place__paragraph:last-of-type {
   margin: 0;
 }
+
+@media screen and (min-width: 425px) {
+  .place__paragraph {
+    padding: 0;
+    margin: 0 0 26px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 1.65;
+  }
+}
+

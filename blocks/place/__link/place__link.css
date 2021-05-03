@@ -3,6 +3,8 @@
   font-size: 18px;
   line-height: 1.22;
   transition: opacity .3s ease-in-out;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
 }
 
 .place__link:hover {
