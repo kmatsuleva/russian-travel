@@ -1,0 +1,20 @@
+.intro {
+  max-width: 984px;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  padding: 64px 16px;
+}
+
+@media screen and (min-width: 425px) {
+  .intro {
+    padding: 88px 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding: 92px 48px;
+  }
+}

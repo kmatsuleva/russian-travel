@@ -1,0 +1,39 @@
+.cover__text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  padding: 33px 16px;
+  background: rgba(42, 44, 47, 0.3);
+  min-height: 200px;
+  transition: background-color .3s ease-in-out;
+}
+
+.cover__text:hover {
+  background-color: rgb(42, 44, 47, 0.8);
+}
+
+@media screen and (min-width: 425px) {
+  .cover__text {
+    min-height: 280px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .cover__text {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__text {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__text {
+    padding: 245px 0;
+  }
+}
