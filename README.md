@@ -15,4 +15,4 @@
 * Медиазапросы
 
 ## Ссылка на website:
-[Github pages](https://www.yandex.ru)
+[Github pages](https://kmatsuleva.github.io/russian-travel/)
