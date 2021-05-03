@@ -3,8 +3,8 @@
   padding: 0 16px;
 }
 
-@media screen and (min-width: 425px) {
-  .place__website {
+@media screen and (min-width: 720px) {
+  .place__paragraph {
     padding: 0;
   }
 }
