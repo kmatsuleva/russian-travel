@@ -5,7 +5,10 @@
   flex-wrap: wrap;
   flex-direction: column;
   color: #fff;
-  padding: 64px 16px 24px 16px;
+  padding-top: 64px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  padding-left: 16px;
   font-family: "Inter", Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -16,14 +19,16 @@
   .footer {
     flex-direction: row;
     justify-content: space-between;
-    padding: 88px 24px 24px 24px;
+    padding-top: 88px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 92px 48px 24px 48px;
+    padding-top: 92px;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 }
