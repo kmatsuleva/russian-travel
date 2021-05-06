@@ -14,12 +14,6 @@
   background-color: rgb(42, 44, 47, 0.8);
 }
 
-@media screen and (min-width: 425px) {
-  .cover__text {
-    max-height: 280px;
-  }
-}
-
 @media screen and (min-width: 720px) {
   .cover__text {
     padding: 115px 0;
@@ -28,14 +22,12 @@
 
 @media screen and (min-width: 1024px) {
   .cover__text {
-    max-height: 640px;
     padding: 195px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover__text {
-    max-height: 740px;
     padding: 245px 0;
   }
 }
