@@ -2,17 +2,31 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
   text-decoration: none;
   padding: 33px 16px;
-  background-color: rgba(42, 44, 47, 0.3);
   min-height: 200px;
-  transition: background-color .3s ease-in-out;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
-.cover__text:hover {
-  background-color: rgba(42, 44, 47, 0.8);
+.cover__text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(42, 44, 47);
+  opacity: .3;
+  transition: opacity .3s ease-in-out;
+  z-index: -1;
 }
+
+.cover__text:hover::before {
+  opacity: .8;
+}
+
 
 @media screen and (min-width: 720px) {
   .cover__text {

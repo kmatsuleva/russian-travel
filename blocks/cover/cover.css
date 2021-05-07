@@ -7,4 +7,5 @@
   -webkit-font-smoothing: antialiased;
   background-image: url('../../images/cover-trains.jpg');
   background-size: cover;
+  background-position: center;
 }
