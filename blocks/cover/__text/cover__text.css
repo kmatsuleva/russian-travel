@@ -1,7 +1,5 @@
 .cover__text {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: block;
   text-decoration: none;
   padding: 33px 16px;
   min-height: 200px;
@@ -17,7 +15,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(42, 44, 47);
+  background-color: rgb(42, 44, 47);
   opacity: .3;
   transition: opacity .3s ease-in-out;
   z-index: -1;
